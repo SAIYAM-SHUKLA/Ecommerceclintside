@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../csss/register.css">
+</head>
+
+<body>
+    <nav>
+        <h1>E-Commerce</h1>
+        <ul>
+            <li><a href="/ECOMMERCEFRONTEND/htmls/landing.html">Home</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="buyer">Buyer</option>
+                <option value="seller">Seller</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+        <div id="message"></div> <!-- This will show success or error messages -->
+    </section>
+    <script src="../jss/register.js"></script>
+</body>
+
+</html>

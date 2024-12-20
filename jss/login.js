@@ -32,5 +32,5 @@ nextWeek.setDate(nextWeek.getDate() + 7);
 });
 
 document.getElementById('register-link').addEventListener('click', function() {
-    window.location.href = '/ECOMMERCEFRONTEND/htmls/register.html'; // Redirecting to registration page
+    window.location.href = '/register.html'; // Redirecting to registration page
 });

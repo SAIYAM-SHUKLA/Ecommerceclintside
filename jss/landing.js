@@ -60,7 +60,7 @@ async function fetchProducts() {
   
     // Send request to backend using fetch
     try {
-      const response = await fetch('http://localhost:5000/api/orders/', {
+      const response = await fetch('https://ecommerceserverside1.onrender.com/api/orders/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

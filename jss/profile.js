@@ -25,7 +25,7 @@ async function fetchProfile() {
 
     try {
         // Fetch user profile
-        const profileResponse = await fetch(`http://localhost:5000/api/users/profile?token=${token}`, {
+        const profileResponse = await fetch(`https://ecommerceserverside1.onrender.com/api/users/profile?token=${token}`, {
             method: 'GET',
         });
         const profileData = await profileResponse.json();
@@ -63,7 +63,7 @@ async function fetchProfile() {
 async function fetchOrders(token) {
     const ordersSection = document.getElementById('orders-section');
     try {
-        const ordersResponse = await fetch(`http://localhost:5000/api/orders/buyer?token=${token}`, {
+        const ordersResponse = await fetch(`https://ecommerceserverside1.onrender.com/api/orders/buyer?token=${token}`, {
             method: 'GET',
         });
         const ordersData = await ordersResponse.json();

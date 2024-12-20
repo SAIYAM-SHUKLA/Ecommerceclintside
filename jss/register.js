@@ -21,7 +21,7 @@ document.getElementById('register-form').addEventListener('submit', async functi
             messageElement.style.color = 'green';  // Success message
             messageElement.innerHTML = 'User registered successfully!';
             // Redirect to login page
-            setTimeout(() => window.location.href = '/login.html', 2000);
+            setTimeout(() => window.location.href = 'https://ecommerceclintside.onrender.com/login.html', 2000);
         } else {
             messageElement.style.color = 'red';    // Error message
             messageElement.innerHTML = result.message || 'Please enter correct details';

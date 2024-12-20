@@ -32,7 +32,7 @@ document.getElementById('addProductForm').addEventListener('submit', async (e) =
         if (response.ok) {
             alert('Product added successfully!');
             // Optionally, redirect to another page
-            window.location.href = '/ECOMMERCEFRONTEND/htmls/profile.html';
+            window.location.href = '/profile.html';
         } else {
             alert(result.message || 'Failed to add product.');
         }

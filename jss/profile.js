@@ -43,7 +43,7 @@ async function fetchProfile() {
                 const addProductBtn = document.getElementById('addProductBtn');
                 addProductBtn.style.display = 'block';
                 addProductBtn.addEventListener('click', () => {
-                    window.location.href = '/ECOMMERCEFRONTEND/htmls/addproduct.html';
+                    window.location.href = '/addproduct.html';
                 });
             }
 
